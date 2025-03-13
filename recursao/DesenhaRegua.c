@@ -14,7 +14,6 @@ int main() {
     return 0;
 }
 
-
 // desenha as divisões com numeros
 void DesenharRegua (int tam_regua, int qntd_tracos) {
 
@@ -29,7 +28,6 @@ void DesenharRegua (int tam_regua, int qntd_tracos) {
             DesenharTracos (qntd_tracos - 1);   
     }
 }
-
 
 // desenha o intervalo entre os traços com números
 void DesenharTracos (int n) {          // n = traços-1
